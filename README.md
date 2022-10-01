@@ -12,4 +12,4 @@
 3. 校正 : 將照片中68個點對齊至正中心，並進行裁切
 4. 風格主換 : 利用DualStyleGan將原始人臉進行風格轉換，產生出新的人臉
 5. 合成 : 合成多張風格轉換後的照片，由此產生新的影片
-<!https://drive.google.com/drive/u/0/my-drive,!(https://markdown.com.cn/images/green.jpg),!(https://markdown.com.cn.jpg)>
+<![藍]https://drive.google.com/drive/u/0/my-drive,!(https://markdown.com.cn/images/green.jpg),!(https://markdown.com.cn.jpg)>
