@@ -22,5 +22,11 @@
 
 ## 遇到困難
 合成新影片後，人物頭髮及背景部分，稍顯不連續，使影片效果不佳
+
 ## 解決問題
 利用Optical Flow一一對應前後image之差別，藉此使image串接時能更順暢
+
+## 運用技術
+- Faceial Landmarks 68 points
+- DualStyleGan
+- Optical Flow
