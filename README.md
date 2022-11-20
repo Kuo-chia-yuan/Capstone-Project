@@ -40,3 +40,4 @@
 
 ## 參考資料
 - [CVPR 2022] Pastiche Master: Exemplar-Based High-Resolution Portrait Style Transfer
+- VToonify: Controllable High-Resolution Portrait Video Style Transfer
