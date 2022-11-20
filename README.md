@@ -16,12 +16,15 @@
 - output : 風格轉換之新影片 
 
 ## 過程 
-1. 切割 : 將影片一幀一幀的切成多張image(.png檔)
+1. 切割 : 將影片一幀一幀的切成多張content image(.png檔)
 2. 標記 : 利用Facial Landmarks，於image之原始人臉上標記出68個點
 3. 校正 : 將image中68個點對齊至正中心，並進行裁切
-4. 風格樣本 : 抓取user想要的風格樣本
-5. 風格轉換 : 利用DualStyleGan將原始人臉進行風格轉換，產生出新的人臉
+4. 風格樣本 : 抓取user想要的style image
+5. 風格轉換 : 利用DualStyleGan將原始人臉進行style transfer，產生出新的人臉
 6. 合成 : 合成多張風格轉換後之image，由此產生新影片
+
+![dualstylegan1](https://user-images.githubusercontent.com/56677419/202916259-3f48cdca-bad7-4181-bbf8-38dd79451376.jpg)
+
 
 ## 遇到困難
 合成新影片後，人物頭髮及背景部分，明顯出現不連續問題，使影片效果不佳。
