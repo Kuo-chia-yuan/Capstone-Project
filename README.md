@@ -26,6 +26,8 @@
 ## 遇到困難
 合成新影片後，人物頭髮及背景部分，稍顯不連續，使影片效果不佳
 
+https://user-images.githubusercontent.com/56677419/202915859-a43c396a-c7ec-4f29-b4c3-e0ac80fd2f91.mp4
+
 ## 解決問題
 1. 嘗試利用Optical Flow一一對應前後image之差別，藉此使image串接時能更順暢
 2. 透過Vtoonify之encoder，加強對影片中人臉的捕捉，完全改善人臉部連續問題
