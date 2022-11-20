@@ -30,6 +30,11 @@
 1. 嘗試利用Optical Flow一一對應前後image之差別，藉此使image串接時能更順暢
 2. 透過Vtoonify之encoder，加強對影片中人臉的捕捉，完全改善人臉部連續問題
 
+## DualStyleGan與Vtoonify差異
+- 由此我們研究出兩者的差異，發現DualStyleGan只適合做單張照片的人臉風格轉換，而Vtoonify結合了Image-to-Image Translation-based framework及StyleGAN-based framework各自的優點並改良，適合做影片的人臉風格轉換。
+- 原因是，DualStyleGan接收照片後需重新校正，將人臉置中才能進行風格轉換，因此影片中人臉的晃動會使其看起來不連續；而Vtoonify捕捉人臉的技術進步，不需要對齊人臉即可進行風格轉換，所以效果大幅進步。
+
+
 ## 運用技術
 - Faceial Landmarks 68 points
 - Image-to-Image Translation
