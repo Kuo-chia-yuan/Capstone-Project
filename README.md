@@ -27,9 +27,13 @@
 合成新影片後，人物頭髮及背景部分，稍顯不連續，使影片效果不佳
 
 ## 解決問題
-利用Optical Flow一一對應前後image之差別，藉此使image串接時能更順暢
+1. 嘗試利用Optical Flow一一對應前後image之差別，藉此使image串接時能更順暢
+2. 透過Vtoonify之encoder，加強對影片中人臉的捕捉，完全改善人臉部連續問題
 
 ## 運用技術
 - Faceial Landmarks 68 points
+- Image-to-Image Translation
+- Pixel2Style2Pixel
 - DualStyleGan
 - Optical Flow
+- Vtoonify
