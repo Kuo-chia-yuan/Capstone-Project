@@ -35,7 +35,7 @@ https://user-images.githubusercontent.com/56677419/202915859-a43c396a-c7ec-4f29-
 
 https://user-images.githubusercontent.com/56677419/202916046-c0016383-8ac7-425d-a08f-29fc6690ebd7.mp4
 
-## 解決問題
+## 解決方法
 1. 嘗試利用Optical Flow一一對應前後image之差別，藉此使image串接時能更順暢
 2. 透過Vtoonify之encoder，加強對影片中人臉的捕捉，完全改善人臉部連續問題
 
