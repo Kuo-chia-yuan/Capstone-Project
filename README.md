@@ -54,7 +54,7 @@ https://user-images.githubusercontent.com/56677419/202966196-1da2ef27-4043-4238-
 - Pixel2Style2Pixel
 - DualStyleGan
 - Vtoonify
-- S
+- StyleGAN
 
 ## 參考資料
 - [CVPR 2022] Pastiche Master: Exemplar-Based High-Resolution Portrait Style Transfer
